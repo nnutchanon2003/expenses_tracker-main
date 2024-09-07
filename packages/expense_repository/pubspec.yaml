@@ -1,0 +1,25 @@
+name: expense_repository
+description: The Repo that handles expenses
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.4.0   # อัปเดตเป็นเวอร์ชันล่าสุด
+  firebase_auth: ^5.2.0   # อัปเดตเป็นเวอร์ชันล่าสุด
+  cloud_firestore: ^5.3.0  # อัปเดตเป็นเวอร์ชันล่าสุด
+  fl_chart: ^0.69.0       # อัปเดตเป็นเวอร์ชันล่าสุด
+  # rxdart: ^0.27.7        # คอมเมนต์หรือเพิ่มแพ็กเกจตามความต้องการ
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0    # อัปเดตเป็นเวอร์ชันล่าสุด
+
+flutter:
+  uses-material-design: true
